@@ -1,42 +1,62 @@
 body {
-    color: #333333;
-    font-family: arial;
-    max-width: 650px;
+    color: black;
+    font-family: Times New Roman;
+    max-width: 500px;
     margin: 0 auto;
     padding: 0 16px;
+    text-align: center;
+    margin-left: 450px;
+    margin-right: 250px;
+    
 
     display: flex;
     flex-direction: column;
-    min-height: 100vh
+    min-height: 5vh
+    
+
+    
+}
+body{
+  
+    background-image: url(/img/cloud.jpg);
+    background-size: cover;
+    background-position:center;
+    position:absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed
 }
 
 .main-content {
     flex-grow: 1;
-} 
+}
 
 footer {
-    color: #888888;
+    color: black;
     border-top: 1px solid #eeeeee;
+    
 }
 
 header {
-    margin-top: 16px;
+    margin-top: 120px;
     margin-bottom: 48px;
 }
 
 h1 {
     font-size: 64px;
     margin-bottom: 16px;
+    
 }
 
  header a {
-      color: #888888;
+      color: #0a0808;
       margin-right: 16px;
       text-decoration: none;
+      font-size: 50;
+      
 }
 
 .portrait {
-    width: 250px;
+    width: 150px;
     
 }
 
